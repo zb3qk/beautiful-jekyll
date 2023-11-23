@@ -287,7 +287,8 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
-  - [vendor]
+
+exclude: [vendor]
 
 plugins:
   - jekyll-paginate
